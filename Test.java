@@ -1,21 +1,13 @@
-class Calculator{
-    int num1,num2;
-    public void add(){
-        System.out.println(("ANIMAl BARKS"));
-    }
-}
-class abc extends Calculator{
-    @Override
-    public  void add(){
-    System.out.println("Dog barks");
-    }
-}
+import java.util.*;
 
 class Program{
     public static void main(String args[]){
-      Calculator c1 = new abc();
-      c1.add();
-        
-       
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(5);
+        list.add(213);
+        for(int num : list){
+            System.out.println(num);
+        }
     }
 }
