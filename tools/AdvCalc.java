@@ -1,5 +1,6 @@
+package tools;
 
-class AdvCalc extends Calc{
+public class AdvCalc extends Calc{
 
     public void show(){
         System.out.println("in show b");
