@@ -11,13 +11,13 @@ class B extends A{
         System.out.println("in B");
     }
     public B(int n){
-        super(n);
+        this();  //this will the construcotr of the same class
         System.out.println("In B int");
     }
 }
 class Program{
     public static void main(String args[]){
-        B b1 = new B();
-        B b2 = new B(12);
+        B b1 = new B(123);
+   
     }
 }
